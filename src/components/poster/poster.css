@@ -1,0 +1,55 @@
+.poster {
+  margin-top: -3rem;
+  font-weight: 600;
+  font-family: cursive;
+  font-style: initial;
+}
+.poster h2 {
+  color: green;
+}
+.poster2 img {
+  width: 100%;
+  height: 30rem;
+}
+.juices-categorys {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.juices-category {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 15rem;
+  text-align: center;
+  box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.01);
+}
+.juices-category h3 {
+  font-weight: 600;
+  font-family: cursive;
+  font-style: initial;
+}
+.juices-category img {
+  width: 15rem;
+  height: 15rem;
+}
+.juices-category:hover {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 16rem;
+  box-shadow: 10px 10px 10px 5px rgba(169, 233, 134, 0.5);
+  transition: 0.5s;
+}
+.all-item {
+  margin-top: 10rem;
+}
+.testimonial-detail h5 i {
+  color: orange;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .poster2 img {
+    width: 100%;
+    height: auto;
+  }
+}

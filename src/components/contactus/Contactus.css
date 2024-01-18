@@ -1,0 +1,71 @@
+/* ContactUs.css */
+
+.contactus-detail {
+  background-color: #d1f3d9;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-contactus-detail {
+  flex: 1;
+}
+
+.right-contactus-detail {
+  flex: 1;
+  margin-left: 30px; /* Adjust margin as needed */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-item i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: orange;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+.contact-img img {
+  width: 10rem;
+  height: 10rem;
+}

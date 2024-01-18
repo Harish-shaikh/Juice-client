@@ -1,0 +1,51 @@
+/* this is footer page */
+.Footer {
+  width: 100%;
+  height: 25rem;
+  background: linear-gradient(150deg, rgb(134, 209, 59), rgb(46, 62, 35));
+  display: flex;
+  justify-content: space-around;
+}
+.Footer .left {
+  width: 40rem;
+  border-right: 1px dotted silver;
+  height: 80%;
+  margin-top: 2rem;
+}
+.Footer .left ul {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.Footer .left ul li {
+  list-style: none;
+  padding: 5px;
+}
+.Footer .left ul li:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+.Footer .middle {
+  width: 40rem;
+  border-right: 1px dotted silver;
+  height: 80%;
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+.Footer .middle img {
+  display: flex;
+  align-items: center;
+}
+.Footer .right ul {
+  display: flex;
+  margin-left: 1rem;
+}
+.Footer .right ul li {
+  list-style: none;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+.Footer .right ul li:hover {
+  color: red;
+  font-size: 2.2rem;
+}
