@@ -1,5 +1,5 @@
 import React from "react";
-import Aboutus from "../about/aboutus";
+import Aboutus from "../about/Aboutus";
 import Contactus from "../contactus/Contactus";
 import Juice from "../juice/Juice";
 import "./poster.css";
